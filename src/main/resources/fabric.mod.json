@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "crash-spotter",
+  "version": "${version}",
+  "name": "Crash Spotter",
+  "description": "Spot mods and mixins related to crash reports",
+  "authors": [
+    "Tom_The_Geek"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Geek202"
+  },
+  "license": "MIT",
+  "icon": "assets/crash-spotter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.geek.tom.crashspotter.CrashSpotter"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "crash-spotter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2"
+  }
+}
